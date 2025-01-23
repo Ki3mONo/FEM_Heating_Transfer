@@ -58,7 +58,7 @@ Kod w pliku **FEM.py**:
    - Generuje siatkę,  
    - Buduje macierz B i wektor L,  
    - Rozwiązuje liniowy układ równań,  
-   - Zwraca wektor węzłów i przybliżone rozwiązanie \(\displaystyle u\).
+   - Zwraca wektor węzłów i przybliżone rozwiązanie u.
    - Wizualizuje rozwiązanie.
 
 ---
