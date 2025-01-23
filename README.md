@@ -22,7 +22,9 @@ W repozytorium znajdują się:
 
 Rozważamy zagadnienie transportu ciepła w przedziale [0, 2]. Równanie różniczkowe ma postać:
 
-![Równanie transportu ciepła](equation.png "Równanie transportu ciepła")
+<p align="center">
+  <img src="https://github.com/Ki3mONo/FEM_Heating_Transfer/blob/main/equation.png" />
+</p>
 
 ---
 ## Plik PDF – sformułowanie słabe
