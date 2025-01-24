@@ -200,8 +200,8 @@ def generate_B_matrix(node_positions):
                 B_matrix[global_indices[local_i], global_indices[local_j]] += local_matrix[local_i, local_j]
 
         
-    # Warunek brzegowy typu Robina na węźle 0 (dodanie 1.0 na elemencie diagonalnym)
-    B_matrix[0, 0] += 1.0
+    # Warunek brzegowy typu Robina na węźle 0 (odjęcie 1.0 na elemencie diagonalnym)
+    B_matrix[0, 0] -= 1.0
 
     # Warunek brzegowy typu Dirichleta na ostatnim węźle:
     # "Zerujemy" cały wiersz i ustawiamy 1.0 na elemencie diagonalnym
